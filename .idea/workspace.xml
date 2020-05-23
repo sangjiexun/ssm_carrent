@@ -7,439 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24d14364-5f77-462b-bd12-267021f3f358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cars.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-16/202005160752555653975.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-23/202005231830452493316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-23/202005232244207314453.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-23/202005232245271587023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-23/202005232245394385568.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/file/2020-05-23/202005232245506157820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/controller/TbUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/dao/TbUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/entity/BusCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/entity/TbUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/service/TbUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alfred/user/service/impl/TbUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/user/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/activities_order_one.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/add_order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/car_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/foot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/order_one.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/order_pay.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/tip.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/update_pass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_address.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_center.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_coupon.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_integel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_money.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_out.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_recharge.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user_register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/reste.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style_pc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/swyc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/address_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/arrow-l_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/arrow-r_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/arrow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/banner_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car_imgs_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car_imgs_l.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/car_imgs_r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/discribe1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/discribe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/discribe3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/discribe4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/diver_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/dot-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/driver_mian_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/header_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/header_mobil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/icon_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/index_car_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/index_sj_s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/input_icon_code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/input_icon_mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/l04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/l05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/l06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list1-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list1_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list2-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list2-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list2_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list3-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list4-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list4_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list5-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list5_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list6-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/list6_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/ll04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/ll05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/ll06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/login_ico_name.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/login_ico_pass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/lsit3_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/mien1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/models_list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/models_nav_action.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/nav_left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/news_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/news_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/news_icon_x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/news_icon_x2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/ok_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/order_info_ico2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/order_info_ico_t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/order_info_ico_t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/other_login_qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/other_login_wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/p_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/partner-list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/phone_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/privi_can.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/privi_timeout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/privi_used.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/regist_other_qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/regist_other_wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_adress.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_more.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_order.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/sales_play.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_gz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_j.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_kj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_rl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_sj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_tx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/share_icon_xl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/tips.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/user_ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/xq_tip_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.DB_gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/main_js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/pintuer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/public_pc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/respond.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbg_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mbg_news.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/carrent.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/bus/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/bus/domain/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/bus/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/bus/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/stat/utils/ExportRentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/stat/utils/ExportRentUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/stat/utils/ZXingCodeEncodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/stat/utils/ZXingCodeEncodeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/sys/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/sys/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/sys/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/sys/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfred/sys/utils/AppFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfred/sys/utils/AppFileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/file.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/face.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/CarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/bus/CarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/bus/CustomerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/car/carManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/car/carManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/check/checkCarManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/check/checkCarManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/check/checkManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/check/checkManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/customer/customerManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/customer/customerManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/rent/rentCarManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/rent/rentCarManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/rent/rentManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/business/rent/rentManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/companyYearGradeStat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/companyYearGradeStat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/customerAreaSexStat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/customerAreaSexStat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/customerAreaStat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/customerAreaStat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/opernameYearGradeStat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stat/opernameYearGradeStat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/logInfo/logInfoManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/logInfo/logInfoManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/deskManger.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/deskManger.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/main/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/MenuLeft.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/MenuLeft.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/MenuRight.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/MenuRight.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menuManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menuManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/news/newsManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/news/newsManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/role/roleManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/role/roleManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/user/userManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/user/userManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/public.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/echarts/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/echarts/js/echarts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/echarts/js/jquery-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/echarts/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/alipay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/index.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/login.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/menu.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/业务员年度销售额统计.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/公司年度月份销售额统计.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/出租单管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/客户地区性别统计.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/客户地区统计.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/客户管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/数据源监控.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/日志管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/检查单管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/汽车入库.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/汽车出租.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/用户管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/系统公告.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/角色管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/carRental/车辆管理.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/code.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/defaultcarimage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/defaultcarimage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/git.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/git.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/layui.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/layui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/login_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/login_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/mayun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/mayun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/userface1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/userface1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/userface2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/userface2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/userface3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/userface3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/userface4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/userface4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/userface5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/userface5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/wechat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bodyTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bodyTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/cache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/cacheUserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/cacheUserInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/address.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/address.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/images.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/images.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/linkList.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/linkList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/linkLogo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/linkLogo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/logs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/navs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/navs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/newsImg.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/newsImg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/newsList.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/newsList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/systemParameter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/systemParameter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/userGrade.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/userGrade.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/userList.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/userList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/json/userface.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/userface.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/12.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/14.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/16.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/17.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/18.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/19.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/20.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/22.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/23.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/24.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/25.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/26.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/27.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/28.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/29.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/31.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/33.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/34.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/36.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/37.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/38.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/39.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/40.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/41.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/42.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/43.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/44.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/45.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/46.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/47.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/48.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/49.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/50.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/51.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/52.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/53.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/54.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/55.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/56.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/57.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/58.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/59.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/60.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/61.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/62.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/63.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/64.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/65.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/66.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/67.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/68.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/69.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/7.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/70.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/71.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/9.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/transfer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dist/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dist/dtree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/dtree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/dtree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/dtreefont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/dtreefont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/dtreefont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/dtreefont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/dtreefont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/dtreefont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/dtreefont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/dtreefont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/dtreefont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/dtreefont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/dtree/font/icons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/dtree/font/icons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTree1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTree1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTree2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTree2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTree3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTree3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTree4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTree4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTreeCheckBox.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTreeCheckBox.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/layui_ext/json/case/asyncTreeCheckBox2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/layui_ext/json/case/asyncTreeCheckBox2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/doc/addressDoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/doc/bodyTabDoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/doc/navDoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/img/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/img/images.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/login/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/login/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/news/newsAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/news/newsAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/news/newsList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/news/newsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/basicParameter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/basicParameter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/linkList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/linkList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/linksAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/logs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/systemSetting/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/changePwd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userGrade.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userInfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/page/user/userList.js" beforeDir="false" />
-    </list>
+    <list default="true" id="24d14364-5f77-462b-bd12-267021f3f358" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -571,7 +139,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -582,6 +150,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\租车\carRental" />
       <recent name="D:\租车\carRental\src\main\resources\mapper\user" />
       <recent name="D:\租车\carRental\src\main\java\com\alfred\user\service\impl" />
       <recent name="D:\租车\carRental\src\main\webapp\static\images" />
@@ -755,7 +324,7 @@
       <workItem from="1589985561345" duration="2329000" />
       <workItem from="1590064528439" duration="7175000" />
       <workItem from="1590150708300" duration="3265000" />
-      <workItem from="1590199314141" duration="39030000" />
+      <workItem from="1590199314141" duration="45323000" />
     </task>
     <servers />
   </component>
@@ -811,6 +380,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="565" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590209069752" />
+    <state x="627" y="214" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590249170718">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="214" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590249170718" />
     <state width="374" height="289" key="DatabaseViewActions_Filter" timestamp="1589809232641">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -819,27 +392,27 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="615" y="164" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589809270948" />
-    <state width="1863" height="307" key="GridCell.Tab.0.bottom" timestamp="1590244884551">
+    <state width="1863" height="307" key="GridCell.Tab.0.bottom" timestamp="1590250179688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1863" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590244884551" />
+    <state width="1863" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590250179688" />
     <state width="1292" height="291" key="GridCell.Tab.0.bottom/0.23.1895.1177@0.0.1920.1200" timestamp="1587797852016" />
     <state width="1292" height="291" key="GridCell.Tab.0.bottom/0.23.1895.1177@0.23.1895.1177" timestamp="1587798161187" />
-    <state width="1863" height="307" key="GridCell.Tab.0.center" timestamp="1590244884551">
+    <state width="1863" height="307" key="GridCell.Tab.0.center" timestamp="1590250179688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1863" height="307" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590244884551" />
+    <state width="1863" height="307" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590250179688" />
     <state width="1292" height="291" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1587797851935" />
     <state width="1292" height="291" key="GridCell.Tab.0.center/0.23.1895.1177@0.23.1895.1177" timestamp="1587798161185" />
-    <state width="1863" height="307" key="GridCell.Tab.0.left" timestamp="1590244884551">
+    <state width="1863" height="307" key="GridCell.Tab.0.left" timestamp="1590250179688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1863" height="307" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590244884551" />
+    <state width="1863" height="307" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590250179688" />
     <state width="1292" height="291" key="GridCell.Tab.0.left/0.23.1895.1177@0.23.1895.1177" timestamp="1587798161184" />
-    <state width="1863" height="307" key="GridCell.Tab.0.right" timestamp="1590244884551">
+    <state width="1863" height="307" key="GridCell.Tab.0.right" timestamp="1590250179688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1863" height="307" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590244884551" />
+    <state width="1863" height="307" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590250179688" />
     <state width="1292" height="291" key="GridCell.Tab.0.right/0.23.1895.1177@0.0.1920.1200" timestamp="1587797852010" />
     <state width="1292" height="291" key="GridCell.Tab.0.right/0.23.1895.1177@0.23.1895.1177" timestamp="1587798161186" />
     <state width="1292" height="291" key="GridCell.Tab.1.bottom" timestamp="1587798160987">
@@ -898,10 +471,10 @@
       <screen x="0" y="23" width="1895" height="1177" />
     </state>
     <state width="1292" height="291" key="GridCell.Tab.3.right/0.23.1895.1177@0.23.1895.1177" timestamp="1587794889593" />
-    <state x="189" y="0" key="SettingsEditor" timestamp="1590205695707">
+    <state x="189" y="0" key="SettingsEditor" timestamp="1590246337033">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="189" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590205695707" />
+    <state x="189" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590246337033" />
     <state x="187" y="23" key="SettingsEditor/0.23.1895.1177@0.23.1895.1177" timestamp="1587783028579" />
     <state x="114" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1590242257018">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -911,6 +484,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590233249341" />
+    <state x="627" y="241" key="extract.method.dialog" timestamp="1590247733257">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="241" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590247733257" />
     <state x="644" y="0" width="964" height="1050" key="find.popup" timestamp="1590230754319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

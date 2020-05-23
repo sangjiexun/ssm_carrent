@@ -113,19 +113,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<a href="javascript:void(0)" class="prev"></a>
 					<div class="slide">
 						<ul class="contain_models_list">
-							<c:forEach items="${car}" var="car">
+							<c:forEach items="${car}" var="car2" varStatus="status">
 								<li>
-									<a href="carDetail.action?car=${car.carnumber}">
-				                        <div class="p1z">${car.carnumber}</div>
-				                        <div class="img_zs"><img src="<%=path%>/file/downloadShowFile.action?path=${car.carimg}" /></div>
+									<a href="carDetail.action?car=${car2.carnumber}">
+				                        <div class="p1z">${car2.carnumber}</div>
+				                        <div class="img_zs"><img src="<%=path%>/file/downloadShowFile.action?path=${car2.carimg}" /></div>
 				                        <div class="em_z">
-											车价：${car.price} 租金：${car.rentprice}
-												${car.description}</div>
+											车价：${car2.price} 租金：${car2.rentprice}
+												${car2.description}</div>
 			                        </a>
 		                        </li>
 	                        </c:forEach>
 						</ul>
 					</div>
+					<c:if test="${status.last}!=true">
+
+					</c:if>
 					<a href="javascript:void(0)" class="next"></a>
 				</div>
 
@@ -159,10 +162,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   	<jsp:include  page="foot.jsp"/>
     <script type="text/javascript" src="<%=path%>/static/js/jquery.min.js"></script>
-	<script type="text/javascript" src="<%=path%>/static/js//My97DatePicker/calendar.js"></script>
-	<script type="text/javascript" src="<%=path%>/static/js//My97DatePicker/WdatePicker.js"></script>
-	<script type="text/javascript" src="<%=path%>/static/js//jquery.SuperSlide.2.1.1.js"></script>
-	<script type="text/javascript" src="<%=path%>/static/js//main_js.js"></script>
+	<script type="text/javascript" src="<%=path%>/static/js/My97DatePicker/calendar.js"></script>
+	<script type="text/javascript" src="<%=path%>/static/js/My97DatePicker/WdatePicker.js"></script>
+	<script type="text/javascript" src="<%=path%>/static/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="<%=path%>/static/js/main_js.js"></script>
 
   </body>
 </html>

@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * (TbUser)表控制层
@@ -37,26 +37,10 @@ public class TbUserController {
     public String showCarIndex(Model mv,HttpSession httpSession){
         System.out.println("打开首页成功");
         TbUser tbUser = new TbUser();
-        ArrayList<BusCar> arrayList = tbUserService.carAllByLimit(1,5);
-        BusCar busCar = new BusCar();
-        for (int i = 0; i < arrayList.size(); i++) {
-            //车号
-            busCar.setCarnumber(arrayList.get(i).getCarnumber());
-            //车封面
-            busCar.setCarimg(arrayList.get(i).getCarimg());
-            //车名
-            busCar.setDescription(arrayList.get(i).getDescription());
-            //车价
-            busCar.setPrice(arrayList.get(i).getPrice());
-            //租金
-            busCar.setRentprice(arrayList.get(i).getRentprice());
-        }
-        arrayList.add(busCar);
-
+        List<BusCar> arrayList = tbUserService.carAllByLimit(1,6);
+        mv.addAttribute("car",arrayList);
         tbUser = (TbUser) httpSession.getAttribute("tbuser");
         mv.addAttribute("tbuser",tbUser);
-        mv.addAttribute("car",arrayList);
-        //System.out.println("得到了车"+busCar.toString());
         return "user/index";
     }
 
@@ -89,8 +73,10 @@ public class TbUserController {
         }
         else {
             System.out.println("登录成功跳转至首页");
-            ArrayList<BusCar> arrayList = tbUserService.carAllByLimit(1,5);
+            List<BusCar> arrayList = tbUserService.carAllByLimit(0,6);
+            LinkedList linkedList = new LinkedList();
             BusCar busCar = new BusCar();
+            Set<BusCar> set = new HashSet<>();
             for (int i = 0; i < arrayList.size(); i++) {
                 //车号
                 busCar.setCarnumber(arrayList.get(i).getCarnumber());
@@ -102,8 +88,9 @@ public class TbUserController {
                 busCar.setPrice(arrayList.get(i).getPrice());
                 //租金
                 busCar.setRentprice(arrayList.get(i).getRentprice());
+                linkedList.add(busCar);
             }
-            arrayList.add(busCar);
+
             model.addAttribute("car",arrayList);
             model.addAttribute("tbuser",tbUser);
             httpSession.setAttribute("tbuser",tbUser);
@@ -112,7 +99,12 @@ public class TbUserController {
     }
     /*登录成功后进入用户中心*/
     @RequestMapping("/user/userCenter.action")
-    public String userCenter(){
+    public String userCenter(Model model,HttpSession httpSession){
+
+        TbUser tbUser = new TbUser();
+        tbUser = (TbUser) httpSession.getAttribute("tbuser");
+        model.addAttribute("tbuser",tbUser);
+
         return "user/user_center";
     }
 
@@ -176,7 +168,8 @@ public class TbUserController {
         System.out.println("当前："+identity+"用户正在租"+carnumber+"号车");
         rentcarnumber = tbUserService.carRent(carnumber,identity);
         System.out.println("租赁成功！租赁单为:"+rentcarnumber);
-        return "user/car_detail";
+
+        return "user/index";
     }
 
 

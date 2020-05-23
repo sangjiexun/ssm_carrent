@@ -42,11 +42,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <form name="userForm" id="userForm" action="javascript:void(0)" method="post">
                             <div class="formRow clearfix">
                                 <span class="tag">姓名：</span>
-                                <input class="username" value="${user.username}" name="username" type="text">
+                                <input class="username" value="${tbuser.username}" name="username" type="text">
                             </div>
                             <div class="formRow clearfix">
                                 <span class="tag">身份证：</span>
-                                <input class="username" value="${user.identity}" id="identity" name="identity" type="text">
+                                <input class="username" value="${tbuser.identity}" id="identity" name="identity" type="text">
                             </div>
 <%--                            <div class="formRow clearfix">--%>
 <%--                                <span class="tag">租车：</span>--%>

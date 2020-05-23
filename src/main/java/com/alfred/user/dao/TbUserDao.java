@@ -56,7 +56,7 @@ public interface TbUserDao {
      * @param limit 查询条数
      * @return 对象列表
      */
-    ArrayList<BusCar> carAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
+    List<BusCar> carAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
 
     /**
      * 前端用户进行租车申请

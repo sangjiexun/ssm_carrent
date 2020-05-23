@@ -23,7 +23,7 @@ public interface TbUserService {
      * @param limit 查询条数
      * @return 对象列表
      */
-    ArrayList<BusCar> carAllByLimit(int offset, int limit);
+    List<BusCar> carAllByLimit(int offset, int limit);
 
     /*通过车牌号查看车的详细信息*/
     BusCar carByCarNumber(String carnumber);

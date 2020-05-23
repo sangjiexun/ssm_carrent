@@ -67,7 +67,7 @@ public class TbUserServiceImpl implements TbUserService {
             customer.setSex(null);
             customer.setCareer("");
             customer.setCreatetime(new Date());
-            customer.setMoney(1000);
+            customer.setMoney(100000);
             tbUserDao.createCustomer(customer);
             System.out.println("注册成功！");
             num = 1;
@@ -149,8 +149,8 @@ public class TbUserServiceImpl implements TbUserService {
      * @return 对象列表
      */
     @Override
-    public ArrayList<BusCar> carAllByLimit(int offset, int limit) {
-        return this.tbUserDao.carAllByLimit(offset, limit);
+    public List<BusCar> carAllByLimit(int offset, int limit) {
+        return tbUserDao.carAllByLimit(offset, limit);
     }
 
     /**
