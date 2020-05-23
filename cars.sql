@@ -11,7 +11,7 @@
  Target Server Version : 50726
  File Encoding         : 65001
 
- Date: 21/05/2020 22:48:51
+ Date: 23/05/2020 22:47:51
 */
 
 SET NAMES utf8mb4;
@@ -38,10 +38,11 @@ CREATE TABLE `bus_car`  (
 -- ----------------------------
 -- Records of bus_car
 -- ----------------------------
-INSERT INTO `bus_car` VALUES ('辽BA7788', '跑车', '红色', 123.22, 40000.00, 8000, 0, '红色法拉利', '2020-05-16/202005160752555653975.jpg', '2020-04-25 14:34:21');
-INSERT INTO `bus_car` VALUES ('鄂A77777', 'SUV', '白色', 350000.00, 1500.00, 12000, 0, '宝马X3', 'images/002.png', '2019-05-07 14:52:15');
-INSERT INTO `bus_car` VALUES ('鄂A88888', '轿车', '黑色', 880000.00, 1000.00, 10000, 0, '保时捷 卡宴', 'images/003.png', '2019-05-07 14:52:15');
-INSERT INTO `bus_car` VALUES ('鄂A99999', '渣土车', '黄', 500000.00, 3000.00, 20000, 1, '动力强劲', 'images/defaultcarimage.jpg', '2019-06-10 14:50:12');
+INSERT INTO `bus_car` VALUES ('A90Q2', '轿车', '黑色', 199999.00, 5000.00, 5000, 1, '迈巴赫', '2020-05-23/202005231830452493316.jpg', '2020-05-23 16:33:02');
+INSERT INTO `bus_car` VALUES ('XA77777', 'SUV', '白色', 350000.00, 1500.00, 12000, 1, '宝马X3', '2020-05-23/202005232244207314453.jpg', '2019-05-07 14:52:15');
+INSERT INTO `bus_car` VALUES ('XA88888', '轿车', '黑色', 880000.00, 1000.00, 10000, 1, '保时捷 卡宴', '2020-05-23/202005232245271587023.jpg', '2019-05-07 14:52:15');
+INSERT INTO `bus_car` VALUES ('XA99999', '新能源', '黄', 500000.00, 3000.00, 20000, 0, '动力强劲', '2020-05-23/202005232245394385568.jpg', '2019-06-10 14:50:12');
+INSERT INTO `bus_car` VALUES ('XBA7788', '跑车', '红色', 123.22, 40000.00, 8000, 0, '红色法拉利', '2020-05-23/202005232245506157820.jpg', '2020-04-25 14:34:21');
 
 -- ----------------------------
 -- Table structure for bus_check
@@ -96,6 +97,8 @@ CREATE TABLE `bus_customer`  (
 -- Records of bus_customer
 -- ----------------------------
 INSERT INTO `bus_customer` VALUES ('123', '11111', 1, '123', '13599999911', '123', '2020-05-17 11:10:40', 0);
+INSERT INTO `bus_customer` VALUES ('1234567', 'sang2', 1, '', '13354222222', '', '2020-05-23 22:42:27', 4000);
+INSERT INTO `bus_customer` VALUES ('123456789', 'sang', NULL, '', NULL, '', '2020-05-23 22:38:46', 0);
 INSERT INTO `bus_customer` VALUES ('3', 'd', 1, '3', '13354282222', '3', '2020-05-16 21:16:28', 0);
 INSERT INTO `bus_customer` VALUES ('421087133414144412', '张小明', 1, '武昌', '13354281998', '程序员', '2019-05-07 14:52:24', 323);
 INSERT INTO `bus_customer` VALUES ('431341134191311311', '李四', 0, '汉阳', '13451313113', 'CEO', '2019-05-07 14:52:24', 1);
@@ -133,6 +136,11 @@ INSERT INTO `bus_rent` VALUES ('CZ_20190727_152634_863_83662', 500.00, '2019-07-
 INSERT INTO `bus_rent` VALUES ('CZ_20200516_231024_784_96201', 40000.00, '2020-05-16 23:10:24', '2020-05-17 00:00:00', 1, '3', '辽BA7788', '管理员', '2020-05-16 23:10:31');
 INSERT INTO `bus_rent` VALUES ('CZ_20200518_214506_267_18391', 40000.00, '2020-05-18 21:45:06', '2020-05-21 00:00:00', 1, '123', '辽BA7788', '业务员', '2020-05-18 21:45:12');
 INSERT INTO `bus_rent` VALUES ('CZ_20200518_215048_005_57260', 40000.00, '2020-05-18 21:50:48', '2020-05-18 21:50:51', 1, '123', '辽BA7788', '管理员', '2020-05-18 21:50:52');
+INSERT INTO `bus_rent` VALUES ('CZ_20200523_220727_240_55630', 5000.00, '2020-05-23 22:07:27', NULL, NULL, NULL, 'A90Q2', '123', '2020-05-23 22:07:27');
+INSERT INTO `bus_rent` VALUES ('CZ_20200523_222133_616_46312', 3000.00, '2020-05-23 22:21:33', NULL, 1, '123456', 'XA99999', 'yewu3', '2020-05-23 22:21:33');
+INSERT INTO `bus_rent` VALUES ('CZ_20200523_224303_646_20120', 5000.00, '2020-05-23 22:43:03', NULL, 1, '1234567', 'A90Q2', 'sang2', '2020-05-23 22:43:03');
+INSERT INTO `bus_rent` VALUES ('CZ_20200523_224626_351_81053', 1500.00, '2020-05-23 22:46:26', '2020-05-30 00:00:00', 0, '1234567', 'XA77777', '业务员', '2020-05-23 22:46:34');
+INSERT INTO `bus_rent` VALUES ('CZ_20200523_224657_120_96871', 1000.00, '2020-05-23 22:46:57', NULL, 1, '1234567', 'XA88888', 'sang2', '2020-05-23 22:46:57');
 
 -- ----------------------------
 -- Table structure for sys_log_login
@@ -144,7 +152,7 @@ CREATE TABLE `sys_log_login`  (
   `loginip` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `logintime` datetime(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 306 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 312 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of sys_log_login
@@ -403,6 +411,12 @@ INSERT INTO `sys_log_login` VALUES (302, '管理员-admin', '0:0:0:0:0:0:0:1', '
 INSERT INTO `sys_log_login` VALUES (303, '管理员-admin', '0:0:0:0:0:0:0:1', '2020-05-18 21:50:34');
 INSERT INTO `sys_log_login` VALUES (304, '管理员-admin', '0:0:0:0:0:0:0:1', '2020-05-18 21:52:07');
 INSERT INTO `sys_log_login` VALUES (305, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-18 21:52:43');
+INSERT INTO `sys_log_login` VALUES (306, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-23 18:30:08');
+INSERT INTO `sys_log_login` VALUES (307, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-23 18:36:10');
+INSERT INTO `sys_log_login` VALUES (308, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-23 18:49:42');
+INSERT INTO `sys_log_login` VALUES (309, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-23 18:54:08');
+INSERT INTO `sys_log_login` VALUES (310, '管理员-admin', '0:0:0:0:0:0:0:1', '2020-05-23 19:33:26');
+INSERT INTO `sys_log_login` VALUES (311, '业务员-yewu', '0:0:0:0:0:0:0:1', '2020-05-23 22:43:30');
 
 -- ----------------------------
 -- Table structure for sys_menu
@@ -561,8 +575,17 @@ CREATE TABLE `tb_user`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `identity` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NULL DEFAULT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_bin ROW_FORMAT = Dynamic;
+  `identity` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `identity`(`identity`) USING BTREE
+) ENGINE = MyISAM AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_bin ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of tb_user
+-- ----------------------------
+INSERT INTO `tb_user` VALUES (1, '123', '123', '123');
+INSERT INTO `tb_user` VALUES (3, 'yewu3', '123456', '123456');
+INSERT INTO `tb_user` VALUES (4, 'sang', 'jjjjjj', '123456789');
+INSERT INTO `tb_user` VALUES (5, 'sang2', '111111', '1234567');
 
 SET FOREIGN_KEY_CHECKS = 1;
