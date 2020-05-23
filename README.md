@@ -4,5 +4,5 @@
 ssm[Spring,SpringMVC,Mybatis]汽车租赁系统
 
 #### 项目截图
-![前台截图](https://gitee.com/jasonsang/ssm_carrent/blob/master/1.png "在这里输入图片标题")
-![后台截图](https://gitee.com/jasonsang/ssm_carrent/blob/master/2.png "在这里输入图片标题")
+![前台截图](/1.png "在这里输入图片标题")
+![后台截图](/2.png "在这里输入图片标题")
