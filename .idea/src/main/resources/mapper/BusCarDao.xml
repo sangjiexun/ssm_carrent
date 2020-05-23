@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alfred.user.dao.BusCarDao">
+
+    <resultMap type="com.alfred.user.entity.BusCar" id="BusCarMap">
+        <result property="carnumber" column="carnumber" jdbcType="VARCHAR"/>
+        <result property="cartype" column="cartype" jdbcType="VARCHAR"/>
+        <result property="color" column="color" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="OTHER"/>
+        <result property="rentprice" column="rentprice" jdbcType="NUMERIC"/>
+        <result property="deposit" column="deposit" jdbcType="NUMERIC"/>
+        <result property="isrenting" column="isrenting" jdbcType="INTEGER"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="carimg" column="carimg" jdbcType="VARCHAR"/>
+        <result property="createtime" column="createtime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BusCarMap">
+        select
+          carnumber, cartype, color, price, rentprice, deposit, isrenting, description, carimg, createtime
+        from cars.bus_car
+        where carnumber = #{carnumber}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BusCarMap">
+        select
+          carnumber, cartype, color, price, rentprice, deposit, isrenting, description, carimg, createtime
+        from cars.bus_car
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BusCarMap">
+        select
+          carnumber, cartype, color, price, rentprice, deposit, isrenting, description, carimg, createtime
+        from cars.bus_car
+        <where>
+            <if test="carnumber != null and carnumber != ''">
+                and carnumber = #{carnumber}
+            </if>
+            <if test="cartype != null and cartype != ''">
+                and cartype = #{cartype}
+            </if>
+            <if test="color != null and color != ''">
+                and color = #{color}
+            </if>
+            <if test="price != null">
+                and price = #{price}
+            </if>
+            <if test="rentprice != null">
+                and rentprice = #{rentprice}
+            </if>
+            <if test="deposit != null">
+                and deposit = #{deposit}
+            </if>
+            <if test="isrenting != null">
+                and isrenting = #{isrenting}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="carimg != null and carimg != ''">
+                and carimg = #{carimg}
+            </if>
+            <if test="createtime != null">
+                and createtime = #{createtime}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="carnumber" useGeneratedKeys="true">
+        insert into cars.bus_car(cartype, color, price, rentprice, deposit, isrenting, description, carimg, createtime)
+        values (#{cartype}, #{color}, #{price}, #{rentprice}, #{deposit}, #{isrenting}, #{description}, #{carimg}, #{createtime})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update cars.bus_car
+        <set>
+            <if test="cartype != null and cartype != ''">
+                cartype = #{cartype},
+            </if>
+            <if test="color != null and color != ''">
+                color = #{color},
+            </if>
+            <if test="price != null">
+                price = #{price},
+            </if>
+            <if test="rentprice != null">
+                rentprice = #{rentprice},
+            </if>
+            <if test="deposit != null">
+                deposit = #{deposit},
+            </if>
+            <if test="isrenting != null">
+                isrenting = #{isrenting},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="carimg != null and carimg != ''">
+                carimg = #{carimg},
+            </if>
+            <if test="createtime != null">
+                createtime = #{createtime},
+            </if>
+        </set>
+        where carnumber = #{carnumber}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from cars.bus_car where carnumber = #{carnumber}
+    </delete>
+
+</mapper>

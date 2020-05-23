@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /carRental/ HTTP/1.1" 200 9723 http-bio-8080-exec-1 291
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /carRental/static/css/user.css HTTP/1.1" 304 - http-bio-8080-exec-3 14
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /carRental/static/js//My97DatePicker/WdatePicker.js HTTP/1.1" 304 - http-bio-8080-exec-4 6
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /carRental/static/images/bg2.jpg HTTP/1.1" 304 - http-bio-8080-exec-5 7
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /carRental/static/images/bg1.jpg HTTP/1.1" 304 - http-bio-8080-exec-2 6
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:53 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:40:56 +0800] "GET /carRental/user/login.action HTTP/1.1" 200 3394 http-bio-8080-exec-8 206
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:41:02 +0800] "POST /carRental/user/loginCheck.action HTTP/1.1" 500 12036 http-bio-8080-exec-9 322
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:43:58 +0800] "POST /carRental/user/loginCheck.action HTTP/1.1" 500 12036 http-bio-8080-exec-2 441
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:47:56 +0800] "GET /carRental/index.action HTTP/1.1" 200 9723 http-bio-8080-exec-2 542
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:47:59 +0800] "GET /carRental/user/login.action HTTP/1.1" 200 3394 http-bio-8080-exec-3 39
+0:0:0:0:0:0:0:1 - - [22/May/2020:20:48:04 +0800] "POST /carRental/user/loginCheck.action HTTP/1.1" 500 12036 http-bio-8080-exec-4 247
+0:0:0:0:0:0:0:1 - - [22/May/2020:22:13:01 +0800] "GET /carRental/ HTTP/1.1" 200 9723 http-bio-8080-exec-5 40
+0:0:0:0:0:0:0:1 - - [22/May/2020:22:13:09 +0800] "GET /carRental/selectOne.action.action HTTP/1.1" 404 1017 http-bio-8080-exec-7 36
+0:0:0:0:0:0:0:1 - - [22/May/2020:22:13:14 +0800] "GET /carRental/selectOne.action HTTP/1.1" 404 1023 http-bio-8080-exec-8 294

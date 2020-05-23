@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/**
+ * 分页样式
+ */
+ 
+/*分页*/
+
+    .paginationBox{float: left;width:100%;padding:10px 0 0px;height:28px; line-height:28px;}
+	.paginationBox ul{float:left; margin:0 ; padding:0;margin-right:10px;list-style:none}
+    .paginationBox li{float:left;background:#fff;margin:0; height:28px;*display:inline; line-height:28px;margin: 0 3px; cursor: pointer; list-style:none}
+    .paginationBox a{float: left;padding:0 15px;border-radius: 5px;border:1px solid #DEDEDE;color:#666}
+    .paginationBox a:hover{ color:#fff}
+    
+    /*当前样式和鼠标移上去样式*/
+
+.red li.current a,.red li a:hover{color:#fff;background:#428bdds}
+.blue li.current a,.blue li a:hover{ background: #0066FF; color:#fff}
+

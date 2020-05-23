@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alfred.user.dao.TbUserDao">
+
+<!--	select语句返回的column值与Mapper方法返回值的属性的映射有两种方式（具体设置见下文）：-->
+<!--	通过名称实现自动映射-->
+<!--	通过resultMap标签指定映射方式-->
+
+
+	<insert id="createRentNumber" parameterType="com.alfred.bus.domain.Rent">
+		insert into bus_rent
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="rentid != null">
+				rentid,
+			</if>
+			<if test="price != null">
+				price,
+			</if>
+			<if test="begindate != null">
+				begindate,
+			</if>
+			<if test="returndate != null">
+				returndate,
+			</if>
+			<if test="rentflag != null">
+				rentflag,
+			</if>
+			<if test="identity != null">
+				identity,
+			</if>
+			<if test="carnumber != null">
+				carnumber,
+			</if>
+			<if test="opername != null">
+				opername,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="rentid != null">
+				#{rentid,jdbcType=VARCHAR},
+			</if>
+			<if test="price != null">
+				#{price,jdbcType=DOUBLE},
+			</if>
+			<if test="begindate != null">
+				#{begindate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="returndate != null">
+				#{returndate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="rentflag != null">
+				#{rentflag,jdbcType=INTEGER},
+			</if>
+			<if test="identity != null">
+				#{identity,jdbcType=VARCHAR},
+			</if>
+			<if test="carnumber != null">
+				#{carnumber,jdbcType=VARCHAR},
+			</if>
+			<if test="opername != null">
+				#{opername,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				#{createtime,jdbcType=TIMESTAMP},
+			</if>
+
+		</trim>
+	</insert>
+	<update id="downMoney" parameterType="com.alfred.bus.domain.Rent">
+		update bus_customer set
+			money=money-#{price}
+			where identity=#{identity}
+	</update>
+	<update id="changeCarState" parameterType="string">
+		update bus_car set
+			isrenting = 1
+			where carnumber = #{carnumber}
+	</update>
+
+
+	<!--登录功能表操作-->
+	<select id="loginCheck" parameterType="com.alfred.user.entity.TbUser" resultType="com.alfred.user.entity.TbUser">
+		 select * from tb_user where username = #{username}
+	</select>
+	<!--注册功能表操作-->
+	<insert id="registCheck"
+			parameterType="com.alfred.user.entity.TbUser">
+		insert into tb_user
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="username != null">
+				username,
+			</if>
+			<if test="password != null">
+				password,
+			</if>
+			<if test="identity != null">
+				identity,
+			</if>
+
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="username != null">
+				#{username,jdbcType=VARCHAR},
+			</if>
+			<if test="password != null">
+				#{password,jdbcType=VARCHAR},
+			</if>
+			<if test="identity != null">
+				#{identity,jdbcType=VARCHAR},
+			</if>
+		</trim>
+	</insert>
+
+	<insert id="createCustomer" parameterType="com.alfred.bus.domain.Customer">
+		insert into bus_customer
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="identity != null">
+				identity,
+			</if>
+			<if test="custname != null">
+				custname,
+			</if>
+			<if test="sex != null">
+				sex,
+			</if>
+			<if test="address != null">
+				address,
+			</if>
+			<if test="phone != null">
+				phone,
+			</if>
+			<if test="career != null">
+				career,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+			<if test="money != null">
+				money,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="identity != null">
+				#{identity,jdbcType=VARCHAR},
+			</if>
+			<if test="custname != null">
+				#{custname,jdbcType=VARCHAR},
+			</if>
+			<if test="sex != null">
+				#{sex,jdbcType=INTEGER},
+			</if>
+			<if test="address != null">
+				#{address,jdbcType=VARCHAR},
+			</if>
+			<if test="phone != null">
+				#{phone,jdbcType=VARCHAR},
+			</if>
+			<if test="career != null">
+				#{career,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				#{createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="money != null">
+				#{money,jdbcType=INTEGER},
+			</if>
+		</trim>
+	</insert>
+
+
+
+
+
+	<insert id="createRent" parameterType="com.alfred.bus.domain.Rent">
+		insert into bus_rent
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="rentid != null">
+				rentid,
+			</if>
+			<if test="price != null">
+				price,
+			</if>
+			<if test="begindate != null">
+				begindate,
+			</if>
+			<if test="returndate != null">
+				returndate,
+			</if>
+			<if test="rentflag != null">
+				rentflag,
+			</if>
+			<if test="identity != null">
+				identity,
+			</if>
+			<if test="carnumber != null">
+				carnumber,
+			</if>
+			<if test="opername != null">
+				opername,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="rentid != null">
+				#{rentid,jdbcType=VARCHAR},
+			</if>
+			<if test="price != null">
+				#{price,jdbcType=DOUBLE},
+			</if>
+			<if test="begindate != null">
+				#{begindate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="returndate != null">
+				#{returndate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="rentflag != null">
+				#{rentflag,jdbcType=INTEGER},
+			</if>
+			<if test="identity != null">
+				#{identity,jdbcType=VARCHAR},
+			</if>
+			<if test="carnumber != null">
+				#{carnumber,jdbcType=VARCHAR},
+			</if>
+			<if test="opername != null">
+				#{opername,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				#{createtime,jdbcType=TIMESTAMP},
+			</if>
+
+		</trim>
+	</insert>
+
+
+
+	<!--查询所有车 分页查询 表操作-->
+	<select id="carAllByLimit" resultType="com.alfred.user.entity.BusCar">
+		select * from bus_car where isrenting = 0
+	</select>
+
+	<!--通过车牌号查询当前车辆信息-->
+    <select id="carByCarNumber" parameterType="string" resultType="com.alfred.user.entity.BusCar">
+		select * from bus_car where carnumber = #{carnmuber}
+	</select>
+	<select id="queryCustomerByIdentity" parameterType="string" resultType="com.alfred.user.entity.TbUser">
+		select * from tb_user where identity = #{identity}
+	</select>
+
+</mapper>

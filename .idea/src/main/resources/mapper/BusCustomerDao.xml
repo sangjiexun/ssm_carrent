@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=".dao.BusCustomerDao">
+
+    <resultMap type=".entity.BusCustomer" id="BusCustomerMap">
+        <result property="identity" column="identity" jdbcType="VARCHAR"/>
+        <result property="custname" column="custname" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="INTEGER"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="career" column="career" jdbcType="VARCHAR"/>
+        <result property="createtime" column="createtime" jdbcType="TIMESTAMP"/>
+        <result property="money" column="money" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BusCustomerMap">
+        select
+          identity, custname, sex, address, phone, career, createtime, money
+        from cars.bus_customer
+        where identity = #{identity}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BusCustomerMap">
+        select
+          identity, custname, sex, address, phone, career, createtime, money
+        from cars.bus_customer
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BusCustomerMap">
+        select
+          identity, custname, sex, address, phone, career, createtime, money
+        from cars.bus_customer
+        <where>
+            <if test="identity != null and identity != ''">
+                and identity = #{identity}
+            </if>
+            <if test="custname != null and custname != ''">
+                and custname = #{custname}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone = #{phone}
+            </if>
+            <if test="career != null and career != ''">
+                and career = #{career}
+            </if>
+            <if test="createtime != null">
+                and createtime = #{createtime}
+            </if>
+            <if test="money != null">
+                and money = #{money}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="identity" useGeneratedKeys="true">
+        insert into cars.bus_customer(custname, sex, address, phone, career, createtime, money)
+        values (#{custname}, #{sex}, #{address}, #{phone}, #{career}, #{createtime}, #{money})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update cars.bus_customer
+        <set>
+            <if test="custname != null and custname != ''">
+                custname = #{custname},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="address != null and address != ''">
+                address = #{address},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone},
+            </if>
+            <if test="career != null and career != ''">
+                career = #{career},
+            </if>
+            <if test="createtime != null">
+                createtime = #{createtime},
+            </if>
+            <if test="money != null">
+                money = #{money},
+            </if>
+        </set>
+        where identity = #{identity}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from cars.bus_customer where identity = #{identity}
+    </delete>
+
+</mapper>
